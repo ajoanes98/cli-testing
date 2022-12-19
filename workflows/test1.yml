@@ -42,4 +42,4 @@ jobs:
     - name: Trigger Sonatype Scan
       run: |
         java -version
-        java -jar latest.jar -s NGROK_IQ_SERVER_URL -a 'admin:admin1234'  -t build -i APPLICATION_NAME .
+        java -jar latest.jar -s NGROK_IQ_SERVER_URL -a 'admin:admin1234'  -t build -i struts2-rce .
